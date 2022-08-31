@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 80%;
+    padding: 34px;
+    background-color: rgb(45, 100, 100);
+    margin: auto;
+}
+
+.container h1,p{
+    text-align: center;
+}
+
+input,textarea{
+    width: 80%;
+    margin: 11px;
+    padding: 5px;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+
+form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    margin: 5px;
+    padding: 6px;
+    background-color: brown;
+    cursor: pointer;
+}
